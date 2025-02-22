@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: KSolar
+
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVER}
+kafka:
+  topic: ${KAFKA_TOPIC_NAME}
+
+solr:
+  collection: ${SOLR_COLLECTION}
+  zk-hosts: ${ZK_HOSTS}
+  zk-chroot: ${ZK_CHROOT}
+  batch-size: ${BATCH_SIZE}
+  flush-interval-ms: ${FLUSH_INTERVAL_MS}
+
